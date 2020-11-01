@@ -4,7 +4,7 @@ export class Formula extends ExcelComponent {
     static className = 'excel__formula'
     constructor($root) {
         super($root, {
-            name: ' Formula',
+            name: 'Formula',
             listeners: ['input', 'click']
         })
     }
